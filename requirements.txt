@@ -1,4 +1,5 @@
 pytest==7.1.2
+pip==22.2
 allure-pytest==2.9.45
 selene>=2.0.0b5
 selenium>=4.2.0
