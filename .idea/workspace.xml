@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7f77ece-eb86-406b-afac-370a13c21bac" name="Changes" comment="test_start_jenkins">
+      <change afterPath="$PROJECT_DIR$/test/allure-results/236b2fa0-ebae-4a32-a6f2-00a7ddf427bb-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/allure-results/33bdd586-3023-431e-a5a0-6cf24c6e1008-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/allure-results/95eb5394-b553-4708-8a87-20eb8f03bf41-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/allure-results/b7d632ab-a859-4e4f-aacd-654dc3f32490-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/allure-results/ec74f215-0160-43cc-974f-d0a08ea669b1-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/allure-results/fd212aa3-faad-4a27-bd53-487746291b0a-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_box.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658843330665</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test_start_jenkins">
+      <created>1658843592510</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658843592510</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
