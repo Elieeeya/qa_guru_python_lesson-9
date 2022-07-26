@@ -25,9 +25,7 @@ allure-report/
 geckodriver.log
 
 # allure-framework
-**/allure-report/
-**/allure-results/
-**/reports/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
