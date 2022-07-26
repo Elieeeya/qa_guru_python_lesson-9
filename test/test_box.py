@@ -7,7 +7,7 @@ from demoqa_tests.controls.datepicker import DatePicker
 from demoqa_tests.controls.nameplate import Nameplate
 
 
-def test_student_registration_form():
+def test_student_registration_form(setup_browser):
     with allure.step('test_open_student_registration_form'):
         browser.open('https://demoqa.com/automation-practice-form')
 

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f77ece-eb86-406b-afac-370a13c21bac" name="Changes" comment="test_start_jenkins" />
+    <list default="true" id="b7f77ece-eb86-406b-afac-370a13c21bac" name="Changes" comment="test_start_jenkins">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/allure-results/03f8165e-a61f-423e-b7b0-0388eb486b8e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/allure-results/500b9992-551e-4bb0-9e01-c23f216e7d76-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/allure-results/59e4ac1e-a885-430b-ae4b-19dcb084bf8a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/allure-results/79b67566-c342-43a5-a8ce-6613535fc499-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_box.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658840867638</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test_start_jenkins">
+      <created>1658841138302</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658841138302</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
