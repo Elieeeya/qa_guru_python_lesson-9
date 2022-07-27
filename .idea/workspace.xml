@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7f77ece-eb86-406b-afac-370a13c21bac" name="Changes" comment="test_start_jenkins">
-      <change afterPath="$PROJECT_DIR$/test/allure-results/236b2fa0-ebae-4a32-a6f2-00a7ddf427bb-attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/allure-results/33bdd586-3023-431e-a5a0-6cf24c6e1008-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/allure-results/95eb5394-b553-4708-8a87-20eb8f03bf41-attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/allure-results/b7d632ab-a859-4e4f-aacd-654dc3f32490-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/allure-results/ec74f215-0160-43cc-974f-d0a08ea669b1-attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/allure-results/fd212aa3-faad-4a27-bd53-487746291b0a-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qa_guru_python_lesson-9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qa_guru_python_lesson-9.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa_tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demoqa_tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa_tests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/demoqa_tests/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/allure-results/236b2fa0-ebae-4a32-a6f2-00a7ddf427bb-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/allure-results/33bdd586-3023-431e-a5a0-6cf24c6e1008-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/allure-results/95eb5394-b553-4708-8a87-20eb8f03bf41-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/allure-results/b7d632ab-a859-4e4f-aacd-654dc3f32490-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/allure-results/ec74f215-0160-43cc-974f-d0a08ea669b1-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/allure-results/fd212aa3-faad-4a27-bd53-487746291b0a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_box.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +57,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Мои документы\Desktop\qa.guru\qa_guru_python_lesson-9" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.Python tests in test_box.py">
     <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_python_lesson-9" />
@@ -67,13 +75,27 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/conftest.py" />
+      <option name="SCRIPT_NAME" value="D:\Мои документы\Desktop\qa.guru\qa_guru_python_lesson-9\conftest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_box.test_successful" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="qa_guru_python_lesson-9" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_box.test_successful&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in D:/Мои документы/Desktop/qa.guru/qa_guru_python_lesson-9/test_box/test_box.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -107,6 +129,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test_box.py" />
+        <item itemvalue="Python tests.Python tests for test_box.test_successful" />
         <item itemvalue="Python.conftest" />
         <item itemvalue="Python tests.Python tests in D:/Мои документы/Desktop/qa.guru/qa_guru_python_lesson-9/test_box/test_box.py" />
       </list>
@@ -170,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658843592510</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test_start_jenkins">
+      <created>1658844393796</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658844393796</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

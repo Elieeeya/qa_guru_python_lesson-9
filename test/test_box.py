@@ -1,5 +1,9 @@
 from selene import have
-from test.conftest import *
+
+from selenium import webdriver
+from selene.support.shared import browser
+from selenium.webdriver.chrome.options import Options
+
 from demoqa_tests.utils import *
 from demoqa_tests.controls.entering_tags import EnteringTags
 from demoqa_tests.controls.dropdown import Dropdown
@@ -7,7 +11,24 @@ from demoqa_tests.controls.datepicker import DatePicker
 from demoqa_tests.controls.nameplate import Nameplate
 
 
-def test_student_registration_form(setup_browser):
+def test_successful():
+    options = Options()
+    selenoid_capabilities = {
+        "browserName": "chrome",
+        "browserVersion": "100.0",
+        "selenoid:options": {
+            "enableVNC": True,
+            "enableVideo": True
+        }
+    }
+    options.capabilities.update(selenoid_capabilities)
+
+    driver = webdriver.Remote(
+        command_executor="https://user1:1234@selenoid.autotests.cloud/wd/hub",
+        options=options)
+
+    browser.config.driver = driver
+
     with allure.step('test_open_student_registration_form'):
         browser.open('https://demoqa.com/automation-practice-form')
         browser.driver.execute_script("$('footer').remove()")
@@ -71,3 +92,9 @@ def test_student_registration_form(setup_browser):
         res_nameplate.way_to(tr=8, td=2).should(have.text('l8xMcQXMrRqEv1GdFVdPCD6a9zP.jpg'))
         res_nameplate.way_to(tr=9, td=2).should(have.text('Bolshaya Nikitskaya st., 22k2, Moscow, 121099'))
         res_nameplate.way_to(tr=10, td=2).should(have.text('Haryana Panipat'))
+
+
+    demoqa_tests.utils.add_html(browser)
+    demoqa_tests.utils.add_screenshot(browser)
+    demoqa_tests.utils.add_logs(browser)
+    demoqa_tests.utils.add_video(browser)
