@@ -11,7 +11,7 @@ from demoqa_tests.controls.datepicker import DatePicker
 from demoqa_tests.controls.nameplate import Nameplate
 
 
-def test_successful():
+def test_student_registration_form():
     options = Options()
     selenoid_capabilities = {
         "browserName": "chrome",
