@@ -1,14 +1,19 @@
+import pytest
 from selene import have
-
 from selenium import webdriver
 from selene.support.shared import browser
 from selenium.webdriver.chrome.options import Options
-
 from demoqa_tests.utils import *
 from demoqa_tests.controls.entering_tags import EnteringTags
 from demoqa_tests.controls.dropdown import Dropdown
 from demoqa_tests.controls.datepicker import DatePicker
 from demoqa_tests.controls.nameplate import Nameplate
+from dotenv import load_dotenv
+
+
+@pytest.fixture(scope='session', autouse=True)
+def load_env():
+    load_dotenv()
 
 
 def test_student_registration_form():
@@ -23,8 +28,10 @@ def test_student_registration_form():
     }
     options.capabilities.update(selenoid_capabilities)
 
+    login = os.getenv('LOGIN')
+    password = os.getenv('PASSWORD')
     driver = webdriver.Remote(
-        command_executor="https://user1:1234@selenoid.autotests.cloud/wd/hub",
+        command_executor=f"https://{login}:{password}@selenoid.autotests.cloud/wd/hub",
         options=options)
 
     browser.config.driver = driver
@@ -92,7 +99,6 @@ def test_student_registration_form():
         res_nameplate.way_to(tr=8, td=2).should(have.text('l8xMcQXMrRqEv1GdFVdPCD6a9zP.jpg'))
         res_nameplate.way_to(tr=9, td=2).should(have.text('Bolshaya Nikitskaya st., 22k2, Moscow, 121099'))
         res_nameplate.way_to(tr=10, td=2).should(have.text('Haryana Panipat'))
-
 
     demoqa_tests.utils.add_html(browser)
     demoqa_tests.utils.add_screenshot(browser)
